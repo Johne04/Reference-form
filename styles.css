@@ -158,6 +158,12 @@ button {
   border: 2px solid rgb(168, 6, 6);
 }
 
+button:hover {
+  background-color: white;
+  z-index: 1;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
 @media (max-width: 1750px) {
   .main-container1 {
     width: 55%;
