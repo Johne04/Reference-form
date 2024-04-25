@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: scroll;
 }
 
 html {
@@ -180,6 +181,7 @@ button:focus {
 @media (max-width: 748px) {
   .main-container1 {
     min-width: 100%;
+    overflow: scroll;
   }
 
   html {
@@ -192,6 +194,8 @@ button:focus {
     min-width: 100%;
     border: none;
     box-shadow: none;
+    height: 100vh;
+    scroll-behavior: smooth;
   }
 
   html {
@@ -204,7 +208,7 @@ button:focus {
     font-size: 1.1rem;
   }
   .label {
-    max-width: 120px;
+    min-width: 150px;
   }
   img {
     width: 75%;
