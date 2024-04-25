@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: scroll;
 }
 
 html {
@@ -177,11 +176,17 @@ button:hover {
 button:focus {
   color: red;
 }
+@media (max-width: 1748px) {
+  * {
+    overflow: scroll;
+  }
 
 @media (max-width: 748px) {
+  * {
+    overflow: scroll;
+  }
   .main-container1 {
     min-width: 100%;
-    overflow: scroll;
   }
 
   html {
