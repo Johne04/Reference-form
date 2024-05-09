@@ -161,7 +161,7 @@ p {
 .submit {
   display: flex;
   justify-content: flex-end;
-  padding: 10px 20px;
+  padding: 20px 40px;
 }
 
 button {
@@ -190,7 +190,7 @@ button:focus {
 }
 
 .odd {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(241, 241, 241, 0.8);
 }
 
 .odd > * {
@@ -213,8 +213,6 @@ button:focus {
 
   .box1,
   .box2 {
-    display: grid;
-    grid-template-columns: 1fr;
     max-width: 80%;
     margin: auto;
     border: 5px solid #00a100;
@@ -233,6 +231,10 @@ button:focus {
     margin: auto;
     border: 5px solid #00a100;
   }
+  p {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 590px) {
@@ -244,7 +246,7 @@ button:focus {
   .box2 {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     border: 5px solid #00a100;
   }
@@ -263,5 +265,12 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .header .img img {
+    width: 60%;
   }
 }
