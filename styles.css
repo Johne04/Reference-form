@@ -28,27 +28,26 @@ body {
 
 .main-container1 {
   height: 95vh;
-  width: 50%;
+  width: 40%;
   border: 18px solid rgb(17, 51, 1);
   border-style: groove inset;
-  /* display: grid;
-  grid-template-rows: repeat(18, 1fr);
-  justify-content: center;
-  align-items: center; */
-
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   border-radius: 25px;
   background-color: rgba(14, 0, 19, 0.7);
   margin: auto;
-  position: fixed;
   animation-name: fadein;
   animation-duration: 2.5s;
   animation-timing-function: ease-in;
   box-shadow: 6px 2px 2px yellow;
 }
 
+/* .main-container2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 7px solid blue;
+} */
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -180,9 +179,9 @@ button {
 button:hover {
   background-color: white;
   z-index: 1;
-  font-size: 1.1rem;
+  letter-spacing: 1px;
   font-weight: 900;
-  border: 2px solid rgb(31, 30, 30);
+  border: 3px solid #00a100;
   border-style: double;
 }
 
@@ -211,11 +210,28 @@ button:focus {
   html {
     font-size: 13px;
   }
+
+  .box1,
+  .box2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 80%;
+    margin: auto;
+    border: 5px solid #00a100;
+  }
 }
 
 @media (max-width: 748px) {
   .main-container1 {
     min-width: 100%;
+  }
+  .box1,
+  .box2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 75%;
+    margin: auto;
+    border: 5px solid #00a100;
   }
 }
 
