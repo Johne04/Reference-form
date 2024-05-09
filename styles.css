@@ -27,8 +27,8 @@ body {
 }
 
 .main-container1 {
-  height: 95vh;
-  width: 40%;
+  min-height: 95vh;
+  min-width: 40%;
   border: 18px solid rgb(17, 51, 1);
   border-style: groove inset;
   display: flex;
