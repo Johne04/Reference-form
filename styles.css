@@ -182,6 +182,7 @@ button {
   color: #00a100;
   border: 2px solid yellow;
   position: relative;
+  margin: 0;
 }
 
 button:hover {
@@ -202,13 +203,16 @@ button:focus {
 }
 
 .odd > * {
-  color: black;
+  color: whitesmoke;
   font-weight: 700;
   border: 1px solid black;
+  background-color: #2d8702;
 }
 
 .even > * {
   font-weight: 700;
+  background-color: white;
+  color: black;
 }
 
 @media (max-width: 1580px) {
@@ -236,10 +240,29 @@ button:focus {
     grid-template-columns: 1fr;
     min-width: 90%;
     margin: auto;
+    background-color: #202020;
   }
   p {
     width: 100%;
     text-align: center;
+  }
+  .box1-inner p {
+    background-color: #2d8702;
+    color: whitesmoke;
+  }
+
+  .box2-inner p {
+    background-color: #2d8702;
+    color: whitesmoke;
+  }
+  .box1-inner input {
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  .box2-inner input {
+    background-color: whitesmoke;
+    color: black;
   }
 }
 
