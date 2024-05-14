@@ -141,6 +141,7 @@ h4 {
   animation-name: blur;
   animation-timing-function: ease-in;
   animation-duration: 4s;
+  font-size: 1.2rem;
 }
 @keyframes blur {
   from {
@@ -244,13 +245,16 @@ button:focus {
 
 @media (max-width: 525px) {
   img {
-    width: 70%;
-    height: 50%;
+    width: 75%;
+    height: 55%;
   }
   h2 {
     font-size: 1rem;
   }
   .header {
     gap: 10px;
+  }
+  h4 {
+    font-size: 11px;
   }
 }
