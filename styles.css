@@ -77,7 +77,7 @@ body {
   align-items: center;
   gap: 1rem;
   max-width: 80%;
-  background-color: rgb(63, 63, 59);
+  background-color: rgba(85, 85, 85, 0.8);
 }
 
 .box1-inner,
